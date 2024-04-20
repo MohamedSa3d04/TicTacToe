@@ -119,19 +119,18 @@ class Board :
         #Results Frame:
         self.resFrame = Frame(self.root, bg='#E9CF88',width=800 ,height=45)
         self.resFrame.pack()
-        self.lblres1 = Label(self.resFrame, fg=f'{player1.color}', font=('consolas',15),text=f'P1({player1.char}) Score : ')
+        self.lblres1 = Label(self.resFrame, fg=f'{player1.color}', font=('consolas',15),text=f'{player1.name}({player1.char}) Score : ')
         self.lblres1.place(x=2,y=10)
         self.lblval1 = Label(self.resFrame, fg=f'{player1.color}', font=('consolas',15), textvariable=player1.score)
-        self.lblval1.place(x=150,y=10)
+        self.lblval1.place(x=200,y=10)
 
-        self.lblres2 = Label(self.resFrame, fg=f'{player2.color}', font=('consolas',15),text=f'P2({player2.char}) Score : ')
-        self.lblres2.place(x=525,y=10)
+        self.lblres2 = Label(self.resFrame, fg=f'{player2.color}', font=('consolas',15),text=f'{player2.name}({player2.char}) Score : ')
+        self.lblres2.place(x=475,y=10)
         self.lblval2 = Label(self.resFrame, fg=f'{player2.color}', font=('consolas',15), textvariable=player2.score)
         self.lblval2.place(x=680,y=10)
         self.statue = Label(self.root, fg='red', font=('consolas',20), text=f'{player1.name} Vs {player2.name}')
         self.statue.pack()
 
-        self.aigan = Button(self.root, fg='red', font=('consolas',20), text='Again!')
         self.prepare_board()
 
         # Buttons:
