@@ -45,7 +45,7 @@ python TicTacToe.py
 2. Player 1 uses 'O' and Player 2 uses 'X'.
 3. Click on the Tic Tac Toe grid to make a move.
 4. The game will automatically detect winning combinations and update the scores.
-5. Click the "Again!" button to start a new game.
+5. Automatlly the game will restart again.
 
 ## Contributing
 
@@ -58,9 +58,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Push to the branch (`git push origin feature/improvement`).
 6. Create a new Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
