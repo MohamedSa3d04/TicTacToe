@@ -1,6 +1,4 @@
-Certainly! Here's a README file for your Tic Tac Toe game code:
 
-```markdown
 # Tic Tac Toe Game
 
 A classic Tic Tac Toe game implemented using Python and Tkinter.
